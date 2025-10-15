@@ -1,0 +1,158 @@
+/* ===== ESTILO GERAL ===== */
+body {
+  margin: 0;
+  font-family: "Heebo", sans-serif;
+  color: #21243D;
+  background-color: #fff;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  margin: 0 0 10px;
+  color: #21243D;
+}
+
+p {
+  margin: 0 0 15px;
+}
+
+section {
+  padding: 80px 10%;
+}
+
+/* ===== INTRO ===== */
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 10%;
+  flex-wrap: wrap;
+}
+
+.intro-text {
+  max-width: 550px;
+}
+
+.intro-img img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.botao {
+  display: inline-block;
+  background-color: #FF6464;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 12px 24px;
+  border-radius: 8px;
+  
+}
+
+.botao:hover {
+  background-color: #e25555;
+}
+
+/* ===== CARDS ===== */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  flex: 1 1 350px;
+  max-width: 450px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.meta {
+  font-size: 14px;
+  color: #777;
+}
+
+/* ===== SEÇÕES ===== */
+.formacoes {
+  background-color: #f2f9fb;
+}
+
+.skills {
+  background-color: #d6eef5;
+}
+
+.experiencias .exp {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+  margin-bottom: 50px;
+}
+
+.experiencias .exp img {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* ===== RODAPÉ ===== */
+footer {
+  background-color: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  padding: 0;
+  margin: 0 0 15px;
+}
+
+footer p {
+  font-size: 14px;
+  color: #777;
+}
+
+/* ===== RESPONSIVIDADE ===== */
+@media (max-width: 900px) {
+  .intro {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .intro-img img {
+    margin-bottom: 30px;
+  }
+
+  .experiencias .exp {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  footer ul {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+
+
+
+
+
+
